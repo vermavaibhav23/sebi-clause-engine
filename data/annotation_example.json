@@ -1,0 +1,9 @@
+{
+  "id": "kyc-review-001",
+  "label_status": "draft",
+  "reviewers": [],
+  "question_draft": "Which attributes are listed in amended paragraph 96?",
+  "source_document_ids": ["SEBI/HO/MIRSD/SECFATF/P/CIR/2023/169", "SEBI/HO/MIRSD/SECFATF/P/CIR/2024/41"],
+  "tasks": ["Verify source bytes and page anchors", "Resolve effective date separately from technical implementation deadline", "Review complete in-scope amendment chain", "Independently annotate answer and applicable evidence", "Adjudicate disagreements before setting human_verified"],
+  "note": "AI-authored annotation worksheet, not a gold answer. Deliberately not executable as a benchmark."
+}

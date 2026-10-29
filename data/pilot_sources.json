@@ -1,0 +1,30 @@
+[
+  {
+    "id": "SEBI/HO/MIRSD/FATF/P/CIR/2023/0144",
+    "title": "Simplification of KYC process and rationalisation of Risk Management Framework at KRAs",
+    "publication_date": "2023-08-11",
+    "effective_date": "2023-09-01",
+    "date_evidence": "Paragraph 13 explicitly gives effective date as September 01, 2023; machine-seeded metadata, requires reviewer validation.",
+    "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2023/1691757155740.pdf",
+    "local_filename": "kyc-2023-144.pdf"
+  },
+  {
+    "id": "SEBI/HO/MIRSD/SECFATF/P/CIR/2023/169",
+    "title": "Master Circular on Know Your Client norms for the securities market",
+    "publication_date": "2023-10-12",
+    "effective_date": "2023-10-12",
+    "kind": "master",
+    "date_evidence": "Preamble paragraph 2: comes into force from date of issue. Machine-seeded; reviewer validation required.",
+    "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2023/1697120943335.pdf",
+    "local_filename": "kyc-master-2023-169.pdf"
+  },
+  {
+    "id": "SEBI/HO/MIRSD/SECFATF/P/CIR/2024/41",
+    "title": "Review of validation of KYC records by KRAs under Risk Management Framework",
+    "publication_date": "2024-05-14",
+    "effective_date": null,
+    "date_evidence": "Paragraph 3 gives a technical-change deadline of May 31, 2024. Do not automatically treat that deadline as commencement.",
+    "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/may-2024/1715693926598.pdf",
+    "local_filename": "kyc-2024-41.pdf"
+  }
+]
