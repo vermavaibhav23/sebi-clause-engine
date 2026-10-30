@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+**/vendor/
+**/compat/
+**/cache/
+**/model_cache/
+**/sources/
+*.safetensors
+*.bin
+*.pt
+*.pth

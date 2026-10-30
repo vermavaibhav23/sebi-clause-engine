@@ -1,0 +1,44 @@
+MODEL-SWAP PILOT — fixed before new scores, 30 October 2026
+
+Question: Does replacing lexical ranking with an instruction-model relevance
+score improve required-evidence retrieval? Compare a simple structural query
+expansion to separate model gains from information representation.
+
+Use existing 8-PDF corpus and existing reference labels without edits. These are
+DEVELOPMENT data already inspected/scored, not a new independent benchmark.
+Primary focused subset selected before new scores: nomination Q006-Q010,
+Q021-Q025,Q041-Q045 (phaseII, phaseIII, surviving original schedule); fee queries
+Q051,Q052,Q054,Q056,Q057,Q059,Q060,Q062,Q069. Total24. This is purposive coverage,
+not a random sample. Report matched subset baselines; do not compare percentages
+with the previous 72-question totals. Secondary non-neural evaluation on all72.
+
+Model: locally cached MBZUAI/LaMini-Flan-T5-783M, an instruction-tuned 2023 model,
+NOT a specialized trained legal/MSMARCO reranker and NOT a current SOTA baseline.
+Read only local safetensors; no download, training, paid API or remote code.
+Use dynamic int8 linear layers on CPU, two threads (float32 smoke probe took
+12.9 seconds for one short prompt; quantization chosen before benchmark scores).
+The local safetensors conversion and tokenizer/config are cached under different
+revisions; record both hashes/revisions, require successful exact-shape loading.
+For each query, publication-filtered BM25 top10
+pages form a fixed candidate set. The model scores the first-token probability
+of 'yes' versus 'no' under a fixed evidence-relevance prompt, 512 input tokens.
+Pure neural order and BM25+neural reciprocal-rank fusion k=60, no tuning.
+Save prompt, scores, model revision, timings, truncation counts and outputs.
+
+Alternative: query expansion with phase name from source-extracted table,
+permitted only after that table's publication. Rank with BM25, and separately
+RRF the original and expanded BM25 lists (k=60). No answer/date value or gold
+evidence list goes into expansion. The phase parser was developed on this corpus;
+this is a development diagnostic, not independent amendment extraction evidence.
+
+Metrics @3 and @5: required-page recall, all-required-pages success, and candidate
+ceiling @10. Keep date filtering constant. Same 5-page output budget, but neural
+reranking has additional compute and expansion has source-derived metadata;
+these resource differences are explicit. No generation/answer accuracy claim.
+No significance test treating repeated date variants as independent cases.
+
+Decision: retain a model swap only if it improves matched-subset evidence coverage
+over BM25; even a gain is feasibility evidence, not novelty or publishability.
+No prompt tuning based on scores. If loading/inference fails, report that rather
+than drawing a conclusion about neural models. Source-specific failure patterns
+can motivate automatic amendment extraction on held-out families as an alternative.

@@ -1,0 +1,13 @@
+method,k,group,required_page_recall,all_required,future_page_fraction
+BM25,3,fees,0.9545454545454546,0.9545454545454546,0.0606060606060606
+BM25,3,nomination,0.56,0.48,0.44
+BM25,5,fees,1.0,1.0,0.045454545454545456
+BM25,5,nomination,0.58,0.52,0.276
+BM25_date_filter,3,fees,1.0,1.0,0.0
+BM25_date_filter,3,nomination,0.56,0.48,0.0
+BM25_date_filter,5,fees,1.0,1.0,0.0
+BM25_date_filter,5,nomination,0.58,0.52,0.0
+TFIDF_sparse_control,3,fees,0.9090909090909091,0.9090909090909091,0.045454545454545456
+TFIDF_sparse_control,3,nomination,0.54,0.44,0.36
+TFIDF_sparse_control,5,fees,1.0,1.0,0.02727272727272728
+TFIDF_sparse_control,5,nomination,0.56,0.48,0.316

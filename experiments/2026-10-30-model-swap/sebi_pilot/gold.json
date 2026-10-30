@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "Q001",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 2.1.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.1.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q002",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 2.1.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-06-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "2.1.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q003",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 2.1.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "2.1.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q004",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 2.1.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "2.1.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q005",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 2.1.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "2.1.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q006",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 2.13? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.13",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q007",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 2.13? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-06-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "2.13",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q008",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 2.13? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "2.13",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q009",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 2.13? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "2.13",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q010",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 2.13? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "2.13",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q011",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 3.1.1(a) and (b)? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "3.1.1",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q012",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 3.1.1(a) and (b)? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-06-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "3.1.1",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q013",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 3.1.1(a) and (b)? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.1.1",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q014",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 3.1.1(a) and (b)? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.1.1",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q015",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 3.1.1(a) and (b)? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.1.1",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q016",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 3.6.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "3.6.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q017",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 3.6.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-06-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "3.6.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q018",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 3.6.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.6.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q019",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 3.6.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.6.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q020",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 3.6.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "2025-08-08",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.6.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q021",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 3.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "3.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q022",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 3.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-09-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "3.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q023",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 3.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q024",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 3.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q025",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 3.2? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "DEFERRED_UNSPECIFIED",
+    "evidence": [
+      "nom_feb:6",
+      "nom_dec:2"
+    ],
+    "clause": "3.2",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q026",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 3.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "3.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q027",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 3.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-09-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "3.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q028",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 3.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q029",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 3.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q030",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 3.4? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "DEFERRED_UNSPECIFIED",
+    "evidence": [
+      "nom_feb:6",
+      "nom_dec:2"
+    ],
+    "clause": "3.4",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q031",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 3.5? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "3.5",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q032",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 3.5? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-09-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "3.5",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q033",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 3.5? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.5",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q034",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 3.5? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.5",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q035",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 3.5? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "DEFERRED_UNSPECIFIED",
+    "evidence": [
+      "nom_feb:6",
+      "nom_dec:2"
+    ],
+    "clause": "3.5",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q036",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 3.10? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "3.10",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q037",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 3.10? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-09-01",
+    "evidence": [
+      "nom_feb:6"
+    ],
+    "clause": "3.10",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q038",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 3.10? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.10",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q039",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 3.10? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-12-15",
+    "evidence": [
+      "nom_feb:6",
+      "nom_jul:2"
+    ],
+    "clause": "3.10",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q040",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 3.10? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "DEFERRED_UNSPECIFIED",
+    "evidence": [
+      "nom_feb:6",
+      "nom_dec:2"
+    ],
+    "clause": "3.10",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q041",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 2.11? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.11",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q042",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 2.11? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.11",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q043",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 2.11? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.11",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q044",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 2.11? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.11",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q045",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 2.11? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.11",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q046",
+    "question": "Based only on circulars issued by 2025-02-15, what implementation date is announced for nomination clause 2.14? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-02-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.14",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q047",
+    "question": "Based only on circulars issued by 2025-03-15, what implementation date is announced for nomination clause 2.14? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-03-15",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.14",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q048",
+    "question": "Based only on circulars issued by 2025-08-01, what implementation date is announced for nomination clause 2.14? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-01",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.14",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q049",
+    "question": "Based only on circulars issued by 2025-08-20, what implementation date is announced for nomination clause 2.14? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-08-20",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.14",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q050",
+    "question": "Based only on circulars issued by 2025-12-20, what implementation date is announced for nomination clause 2.14? Give an unspecified deferment if no date is set.",
+    "group": "nomination",
+    "date": "2025-12-20",
+    "field": "schedule",
+    "expected": "2025-03-01",
+    "evidence": [
+      "nom_jan:7"
+    ],
+    "clause": "2.14",
+    "entity": "NOM",
+    "scope": "all",
+    "consent": true
+  },
+  {
+    "id": "Q051",
+    "question": "On 2025-03-15, for a new non-accredited individual client who agrees, how many months of fees may a investment adviser collect in advance?",
+    "group": "fees",
+    "date": "2025-03-15",
+    "field": "advance_months",
+    "expected": 6,
+    "evidence": [
+      "ia_2020:3"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q052",
+    "question": "On 2025-04-02, for a new non-accredited individual client who agrees, how many months of fees may a investment adviser collect in advance?",
+    "group": "fees",
+    "date": "2025-04-02",
+    "field": "advance_months",
+    "expected": 12,
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q053",
+    "question": "On 2025-05-15, for a new non-accredited individual client who agrees, how many months of fees may a investment adviser collect in advance?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": 12,
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q054",
+    "question": "On 2025-05-15, is the advance-fee period for a investment adviser serving an accredited individual investor governed by the one-year retail cap or bilaterally negotiated terms?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": "NEGOTIATED",
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "IA",
+    "scope": "accredited",
+    "consent": true
+  },
+  {
+    "id": "Q055",
+    "question": "On 2025-05-15, is the advance-fee period for a investment adviser serving a non-individual corporate client governed by the one-year retail cap or bilaterally negotiated terms?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": "NEGOTIATED",
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "IA",
+    "scope": "corporate",
+    "consent": true
+  },
+  {
+    "id": "Q056",
+    "question": "On 2025-05-15, may a investment adviser collect advance fees from a new non-accredited individual client without the client agreeing?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": "CLIENT_AGREEMENT_REQUIRED",
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": false
+  },
+  {
+    "id": "Q057",
+    "question": "On 2025-03-15, what is the annual fixed fee cap in rupees per family for a investment adviser serving a new non-accredited individual client, excluding statutory charges?",
+    "group": "fees",
+    "date": "2025-03-15",
+    "field": "fixed_fee",
+    "expected": 151000,
+    "evidence": [
+      "ia_jan:8"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q058",
+    "question": "On 2025-05-15, what is the annual fixed fee cap in rupees per family for a investment adviser serving a new non-accredited individual client, excluding statutory charges?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "fixed_fee",
+    "expected": 151000,
+    "evidence": [
+      "ia_jan:8"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q059",
+    "question": "On 2025-03-15, for a new non-accredited individual client who agrees, how many months of fees may a research analyst collect in advance?",
+    "group": "fees",
+    "date": "2025-03-15",
+    "field": "advance_months",
+    "expected": 3,
+    "evidence": [
+      "ra_jan:8"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q060",
+    "question": "On 2025-04-02, for a new non-accredited individual client who agrees, how many months of fees may a research analyst collect in advance?",
+    "group": "fees",
+    "date": "2025-04-02",
+    "field": "advance_months",
+    "expected": 12,
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q061",
+    "question": "On 2025-05-15, for a new non-accredited individual client who agrees, how many months of fees may a research analyst collect in advance?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": 12,
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q062",
+    "question": "On 2025-05-15, is the advance-fee period for a research analyst serving an accredited individual investor governed by the one-year retail cap or bilaterally negotiated terms?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": "NEGOTIATED",
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "RA",
+    "scope": "accredited",
+    "consent": true
+  },
+  {
+    "id": "Q063",
+    "question": "On 2025-05-15, is the advance-fee period for a research analyst serving a non-individual corporate client governed by the one-year retail cap or bilaterally negotiated terms?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": "NEGOTIATED",
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "RA",
+    "scope": "corporate",
+    "consent": true
+  },
+  {
+    "id": "Q064",
+    "question": "On 2025-05-15, may a research analyst collect advance fees from a new non-accredited individual client without the client agreeing?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "advance_months",
+    "expected": "CLIENT_AGREEMENT_REQUIRED",
+    "evidence": [
+      "fees_apr:2"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": false
+  },
+  {
+    "id": "Q065",
+    "question": "On 2025-03-15, what is the annual fixed fee cap in rupees per family for a research analyst serving a new non-accredited individual client, excluding statutory charges?",
+    "group": "fees",
+    "date": "2025-03-15",
+    "field": "fixed_fee",
+    "expected": 151000,
+    "evidence": [
+      "ra_jan:8"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q066",
+    "question": "On 2025-05-15, what is the annual fixed fee cap in rupees per family for a research analyst serving a new non-accredited individual client, excluding statutory charges?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "fixed_fee",
+    "expected": 151000,
+    "evidence": [
+      "ra_jan:8"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q067",
+    "question": "On 2025-03-15, what percentage per annum is the Assets under Advice fee ceiling for an investment adviser serving a new non-accredited individual client?",
+    "group": "fees",
+    "date": "2025-03-15",
+    "field": "aua_percent",
+    "expected": 2.5,
+    "evidence": [
+      "ia_jan:7"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q068",
+    "question": "On 2025-03-15, what is the maximum breakage fee in months for an investment adviser on premature termination for a new non-accredited individual client?",
+    "group": "fees",
+    "date": "2025-03-15",
+    "field": "breakage_months",
+    "expected": 3,
+    "evidence": [
+      "ia_2020:3"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q069",
+    "question": "On 2025-03-15, how many months of breakage fees may a research analyst charge on premature termination for a new non-accredited individual client?",
+    "group": "fees",
+    "date": "2025-03-15",
+    "field": "breakage_months",
+    "expected": 0,
+    "evidence": [
+      "ra_jan:8"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q070",
+    "question": "On 2025-05-15, what percentage per annum is the Assets under Advice fee ceiling for an investment adviser serving a new non-accredited individual client?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "aua_percent",
+    "expected": 2.5,
+    "evidence": [
+      "ia_jan:7"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q071",
+    "question": "On 2025-05-15, what is the maximum breakage fee in months for an investment adviser on premature termination for a new non-accredited individual client?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "breakage_months",
+    "expected": 3,
+    "evidence": [
+      "ia_2020:3"
+    ],
+    "entity": "IA",
+    "scope": "retail",
+    "consent": true
+  },
+  {
+    "id": "Q072",
+    "question": "On 2025-05-15, how many months of breakage fees may a research analyst charge on premature termination for a new non-accredited individual client?",
+    "group": "fees",
+    "date": "2025-05-15",
+    "field": "breakage_months",
+    "expected": 0,
+    "evidence": [
+      "ra_jan:8"
+    ],
+    "entity": "RA",
+    "scope": "retail",
+    "consent": true
+  }
+]

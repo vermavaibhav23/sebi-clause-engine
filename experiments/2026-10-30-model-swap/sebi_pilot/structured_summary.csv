@@ -1,0 +1,13 @@
+method,group,sum,count,mean
+date_filter_common_reader,fees,18,22,0.8181818181818182
+date_filter_common_reader,nomination,27,50,0.54
+phase_scope_resolver,fees,22,22,1.0
+phase_scope_resolver,nomination,50,50,1.0
+relevance_common_reader,fees,18,22,0.8181818181818182
+relevance_common_reader,nomination,19,50,0.38
+resolver_without_phase_mapping,fees,22,22,1.0
+resolver_without_phase_mapping,nomination,18,50,0.36
+resolver_without_scope,fees,18,22,0.8181818181818182
+resolver_without_scope,nomination,50,50,1.0
+simple_dated_table,fees,22,22,1.0
+simple_dated_table,nomination,50,50,1.0

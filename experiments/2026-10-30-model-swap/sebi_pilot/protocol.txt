@@ -1,0 +1,56 @@
+SEBI micro-pilot, fixed before scoring, 30 October 2026
+
+This is an exploratory feasibility test on two selected regulatory families,
+not a 20-chain study, independent legal validation, or a reproduction of any
+published RAG system. The developer has read all source documents. No held-out
+family exists; source-specific parsing choices are development work.
+
+Corpus: eight official SEBI PDFs: 2020 IA guidelines; January 2025 IA and RA
+guidelines; April 2025 advance fee amendment; January, February, July and
+December 2025 nomination circulars. Historical closed-corpus questions only.
+No assertion that this corpus exhausts SEBI law, or describes current rules.
+
+Tasks:
+1. Evidence retrieval: BM25, MiniLM dense embeddings, reciprocal-rank hybrid,
+publication-date-filtered hybrid. Evaluate required-source-page recall and
+all-required-pages at k=3 and 5. Page granularity is a practical micro-pilot
+choice, not a tuned reproduction of clause-level systems. Dense model truncates
+pages to 512 tokens; report this limitation.
+2. Structured rule resolution: a common source-derived fact representation,
+with fields, entities, scopes and source pages, used by every selector.
+Compare relevance-only selection, publication-date-filtered selection, latest
+applicable field selection, and phase-aware resolution with scope handling.
+Include a simple effective-dated table control with phase updates flattened
+into clause-level facts. If it ties the resolver, report no architectural gain.
+No LLM generator is evaluated. Scores are structured-field accuracy, not
+end-to-end RAG answer accuracy or legal correctness certification.
+
+Gold: explicit manually authored expected field values and evidence-page sets,
+checked against source text/table image by the assistant, not an independent
+legal expert. Generated date/phrase variants are correlated; report counts
+and family breakdown, no significance claim from treating them as independent.
+Question slots (date/entity/clause/field/scope) are supplied to all structured
+selectors. This isolates resolution and does not test natural-language parsing.
+
+Nomination questions ask the ANNOUNCED implementation schedule as known on a
+specified date, not retrospective enforceability. Publication chronology is
+therefore appropriate. Do not reinterpret a July postponement as having been
+known in June. Gold unknown/deferred is a valid output. Unchanged clauses
+inherit their original schedule. Require table membership plus later phase
+update evidence for clause-specific changes. Fee questions restrict to new
+clients to avoid transitional agreement ambiguity; scope exceptions tested.
+
+Record data/source hashes, model revision, full per-question predictions,
+retrieved pages, primary summaries and failure examples. Before first score,
+freeze gold and code hashes. Fix implementation defects if necessary but keep
+first-run results and document corrections. Do not tune against resulting scores.
+
+Go/no-go: whether the real-source task is executable and whether a specialized
+resolver improves over a simple effective-dated field table, not whether it
+beats naive retrieval. Any oracle/manual normalization advantage must be named.
+
+Pre-score execution contingency: the MiniLM weight endpoint is timing out.
+Run BM25, date-filtered BM25 and explicitly named TF-IDF sparse control even
+if dense weights remain unavailable. Do not label TF-IDF as dense or a hybrid
+reproduction. If weights become available, add planned dense/hybrid scores
+without changing questions, source parser, selection rules or hyperparameters.

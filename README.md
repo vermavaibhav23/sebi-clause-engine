@@ -2,7 +2,7 @@
 
 A local, CPU-only research prototype for **clause-level amendment resolution and evidence retrieval**. Python + FastAPI + SQLite + pdfplumber + BM25. No API key, GPU, vector database, or cloud service is required.
 
-**Public repository contents:** source code, tests, research protocols, official source URL manifests, synthetic fixtures and blank/AI-draft review packets. Local databases, downloaded PDFs, environment files and completed human reviews are not included. Corpus counts below describe the development collection; a fresh clone must download and ingest sources. No independently verified benchmark or real-data performance claim is released.
+**Public repository contents:** source code, tests, research protocols, official source URL manifests, synthetic fixtures, blank/AI-draft review packets, and an archived exploratory retrieval experiment with extracted public-source text and AI-authored labels. Local databases, downloaded PDFs, environment files and completed human reviews are not included. Corpus counts below describe the application's development collection; a fresh clone must download and ingest sources. No independently verified benchmark or validated real-data performance claim is released.
 
 ## What is working
 
@@ -19,6 +19,10 @@ A local, CPU-only research prototype for **clause-level amendment resolution and
 **Research status:** the revised research database contains **22 official PDFs, 809 automatically extracted clause/table segments and 27 proposed relationships** (including references). There are **zero approved real events and zero independently verified QA labels**. Fifty AI-drafted questions and two blank review packets are ready. The collection is not certified complete. This is a validation platform, not a proven new algorithm or a finished publishable benchmark.
 
 Start with the [practical review plan](docs/REVIEW_PLAN.md), [current study protocol](docs/STUDY_PROTOCOL_V2.md), [baseline specifications](docs/BASELINES.md) and [build status](docs/BUILD_STATUS.md). No synthetic score should be reported as a SEBI research result.
+
+## Archived model-swap experiment
+
+The [30 October model-swap pilot](experiments/2026-10-30-model-swap/README.md) records a separate eight-document, 72-question development experiment. On the same 24 selected queries, complete-evidence retrieval at five pages was 15/24 for BM25, 13/24 for LaMini reranking, 16/24 for their fusion, and 19/24 for phase-based query expansion. These are exploratory results on AI-authored labels, not an evaluation of this application's reviewed pipeline or an improvement over a reproduced paper. The archive includes frozen inputs, per-query scores, limitations, research alternatives, and a dependency-free verification command.
 
 ## Run on Windows
 

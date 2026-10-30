@@ -1,0 +1,78 @@
+SEBI MODEL-SWAP PILOT — 30 October 2026
+
+Question: Does a different ranking model improve complete evidence retrieval?
+This is a development experiment, not a publication or a published-baseline reproduction.
+
+MATCHED 24-QUESTION SUBSET
+Success means all reference evidence pages occur in the first five retrieved pages.
+It does NOT mean the system generated a correct legal answer.
+
+BM25_LaMini_RRF: 16/24 (66.7%)
+BM25_date_filter: 15/24 (62.5%)
+LaMini_rerank: 13/24 (54.2%)
+phase_expansion_BM25: 19/24 (79.2%)
+phase_expansion_RRF: 16/24 (66.7%)
+
+ALL 72 QUESTIONS (NON-NEURAL METHODS ONLY)
+BM25_date_filter: 48/72 (66.7%)
+phase_expansion_BM25: 58/72 (80.6%)
+phase_expansion_RRF: 50/72 (69.4%)
+
+PAIRED CHANGES VERSUS BM25 ON THE 24 QUESTIONS
+{
+  "BM25_LaMini_RRF": {
+    "wins": 1,
+    "losses": 0
+  },
+  "LaMini_rerank": {
+    "wins": 1,
+    "losses": 3
+  },
+  "phase_expansion_BM25": {
+    "wins": 4,
+    "losses": 0
+  },
+  "phase_expansion_RRF": {
+    "wins": 1,
+    "losses": 0
+  }
+}
+
+BM25 top10 candidate ceiling: 16/24.
+Truncated neural inputs: 113/240 pairs (512-token limit).
+Mean model inference per query: 38.0 seconds.
+Total experiment runtime: 16.6 minutes.
+
+WHAT RAN AND WHAT DID NOT
+Local LaMini-Flan-T5-783M, dynamic int8 linear layers, CPU, two threads.
+This is an older instruction model, not a specialized trained reranker or SOTA.
+It scores a fixed yes/no relevance prompt for the same BM25 top10 candidates.
+Pure model reranking and fixed reciprocal-rank fusion were both pre-specified.
+The alternative expands queries with phase metadata extracted from source documents.
+That metadata parser was developed on these documents and is an additional input advantage.
+No gold answer or evidence list entered the model prompt or expansion.
+No training or prompt tuning was performed after observing these results.
+No TimelyRAG, VersionRAG, UAFE, BGE reranker or end-to-end generator was run here.
+
+LIMITATIONS
+Eight selected historical PDFs, two families, assistant-authored reference labels.
+The 24 queries are purposively chosen from previously inspected development data.
+Repeated dates/clauses are correlated; no independent-sample significance claim.
+Input truncation can hide relevant evidence; ranking has only ten initial candidates.
+These results cannot establish whether specialist neural rerankers would work better.
+A score improvement alone does not establish novelty, clinical/legal validity,
+publication readiness, or superiority over a published paper.
+
+RESEARCH DECISION
+Treat model swapping as an experiment, not the research contribution.
+Use the observed evidence-linking failures to design an unseen-family evaluation.
+For a different task, investigate selective amendment application: reduce undetected
+errors across amendment chains at a fixed human-review budget. Structured edits and
+verification already have prior art; a specific new method still needs justification.
+See research_options.txt for verified papers, overlap, and reproduction gates.
+
+AUDIT
+PASS: row counts, frozen inputs, no duplicate model pairs, publication-date filtering, evidence metrics
+Artifacts: protocol.txt, run.py, pre_score_hashes.json, manifest.json,
+retrieval_predictions.csv, neural_pair_scores.csv, summary.csv, by_family.csv,
+candidate_ceiling.csv, audit.json. Prior pilot files were not modified.

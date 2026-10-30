@@ -1,0 +1,3 @@
+# Preserve byte-level hashes of recorded experiment artifacts on every platform.
+sebi_model_swap/** -text
+sebi_pilot/** -text

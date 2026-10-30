@@ -1,0 +1,69 @@
+RESEARCH DECISION NOTES — 30 October 2026
+
+Measured candidate bottleneck: BM25 top10 contained all reference evidence for
+16/24 questions. Its rerank-only methods cannot exceed that ceiling. Phase-based
+query expansion retrieves from the full eligible corpus and reaches 19/24.
+This points to candidate generation/link traversal rather than ranking alone.
+It is a development observation, not a new algorithm or proof of generalization.
+
+Changing a model can be a useful baseline experiment. A model substitution alone
+does not establish a research contribution. This pilot does not reproduce a
+published system, and cannot establish a win over one.
+
+Candidate problem: reduce undetected mistakes when applying chains of regulatory
+amendments, while limiting the fraction requiring human review. A candidate
+implementation predicts localized edits and checks target uniqueness, preservation
+of untouched text, dates, and dependency validity. Reject uncertain edits. These
+components are NOT claimed novel; structured amendment execution is longstanding.
+The potential contribution would require a specific new method and convincing
+held-out evaluation beyond these standard controls.
+
+Primary paper to investigate/reproduce:
+Prior, Hof, Wais, Grabmair (NLLP 2025), Risks and Limits of Automatic Consolidation
+of Statutes. https://aclanthology.org/2025.nllp-1.29/
+908 amendment-law pairs across four German codes; reported exact match approximately
+50.3% single-step and 20.51% multi-step. Uses GPT-4.1 for amendment extraction and
+GPT-4.1-mini for application. These are DIFFERENT metrics/data from our retrieval
+pilot. Cannot compare our 72/72 rule lookup or retrieval score against them.
+Sources are public, but availability of their assembled dataset/code has NOT been
+confirmed. Reproduction feasibility remains a gate. German legal assessment also
+requires suitable language expertise. No claim that this is easy to beat.
+
+Public-data fallback to inspect:
+Etcheverry, Real, Chavallard (NLLP 2024), Algorithm for Automatic Legislative Text
+Consolidation. https://aclanthology.org/2024.nllp-1.13/
+Public dataset card and examples verified at
+https://huggingface.co/datasets/DoctrineAI/legal_consolidation
+It contains initial_article, modification_section, modified_article in French.
+The current card lists Ludo v.1.0 licensing; inspect its terms before reuse.
+Quantized generation
+with LoRA applies amendments. Its arXiv posting is January 2025, but publication
+is 2024. Verify downloadable files, licensing terms, split, and exact task before
+committing; not downloaded or run here. Current dataset version must be pinned
+and reconciled with the paper before making a direct numerical comparison.
+
+Additional overlap:
+https://lawvm.org/ describes deterministic amendment replay, point-in-time text,
+unresolved operations and verification. This is project documentation, not a
+peer-reviewed accuracy evaluation. It nonetheless prevents presenting those
+engineering features as automatically original.
+https://github.com/opnsrcntrbtr/sebi-circular-rag/blob/main/docs/status.md
+describes SEBI retrieval with hybrid search, reranking, lineage, temporal queries
+and abstention. Self-reported metrics were not independently verified. Domain
+choice plus these features is not an adequate novelty claim.
+https://link.springer.com/article/10.1007/s12599-026-01008-x
+Taming the Complexity of Legal Change for Business Process Compliance (2026)
+reviews legal-change work and proposes an LLM approach for compliance impact.
+
+Proposed commitment gate, NOT completed experiments:
+1. Confirm accessible data and reproducible baseline; establish a separate test
+   split by amendment chain/document family, not random questions from one chain.
+2. Compare direct rewriting, standard structured-edit execution, deterministic
+   checks, and the proposed improvement using the same backbone and inputs.
+3. Report exact match, errors in unchanged clauses, chain-length degradation,
+   and error versus coverage/review burden. Abstentions cannot count as successes.
+4. Remove components to establish what causes any gain. Compare resource costs.
+5. Independently review labels and severity. Only then assess publication fit.
+
+No hospital/private data is needed for this legal-document direction. Public
+documents still require reliable reference annotations and evaluation design.

@@ -1,0 +1,140 @@
+SEBI AMENDMENT MICRO-PILOT — RESULTS AND RESEARCH DECISION
+30 October 2026
+
+VERDICT
+The task is executable on public sources. This run does NOT establish a novel
+architecture, publication readiness, or a win over TimelyRAG/VersionRAG. A simple
+dated lookup table ties the proposed phase-and-scope resolver on every test.
+The next credible research target is automatic extraction and evidence retrieval
+on unseen amendment families, not adding architectural components to this demo.
+
+WHAT ACTUALLY RAN
+Eight official SEBI PDFs, 70 pages, two selected regulatory families, 21 extracted
+rule events, 72 assistant-authored historical closed-corpus questions:
+  50 nomination implementation-schedule queries (10 clauses x 5 dates).
+  22 fee queries covering new clients, IA/RA differences, client agreement,
+     accredited/corporate exceptions, fixed fees, AUA and breakage fees.
+Nomination questions ask the schedule announced by the query date, not current
+law or retrospective enforceability. These are repeated tests of relatively few
+rules; they are NOT 72 independent amendment chains or clinical-style samples.
+The earlier proposed 20-chain benchmark has not been built by this micro-pilot.
+
+STRUCTURED RULE-RESOLUTION RESULTS
+All methods receive the same source-derived event representation and supplied
+query slots: date, entity, field, clause, scope and consent. This isolates rule
+selection; it does not test free-form query understanding or LLM generation.
+
+Method                            Fees     Nomination   Total
+Relevance + common reader         18/22     19/50        37/72 (51.4%)
+Date filter + common reader        18/22     27/50        45/72 (62.5%)
+Phase/scope resolver               22/22     50/50        72/72 (100%)
+Simple dated table                 22/22     50/50        72/72 (100%)
+Resolver without phase mapping    22/22     18/50        40/72 (55.6%)
+Resolver without client scope     18/22     50/50        68/72 (94.4%)
+
+The dated table explicitly flattens phase updates into clause-level records;
+it uses the same extracted source information as the resolver. The tie shows
+that straightforward data modeling explains the entire structured-test gain.
+100% is expected to be optimistic: the parser was developed after reading this
+small corpus, uses source-specific page bindings and patterns, and the test
+questions are templated over the same rules. No independent held-out family or
+legal-expert evaluation exists. This score is not end-to-end chatbot accuracy.
+
+RETRIEVAL RESULTS
+Metric: all required reference pages present among top 5 results.
+BM25:                     48/72 (66.7%)
+Publication-filtered BM25: 48/72 (66.7%)
+TF-IDF sparse control:    46/72 (63.9%)
+At top 3: BM25 45/72, publication-filtered BM25 46/72, TF-IDF 42/72.
+The publication filter removes future-issued pages but does not by itself find
+all current amendment evidence. At top 5, unfiltered BM25 returns future-issued
+pages at a mean rate of 20.6% of returned pages; date filtering reduces this to 0.
+Reference-page recall is a strict selected-evidence metric; alternative valid
+proof paths have not been exhaustively annotated. A page-level result is not
+directly comparable to papers reporting clause-level retrieval metrics.
+
+POST-PRIMARY DIAGNOSTIC (not part of initial score protocol)
+Restrict the resolver to events whose complete source-page evidence was retrieved
+by publication-filtered BM25. Top3: 46/72 correct; top5: 48/72 correct. Both abstain
+on 18/72 questions. Top5 remaining 6 errors return an incorrect available rule.
+This uses the prebuilt event structure and supplied query slots, so it still
+overestimates what a fully automatic reader might achieve. It nevertheless
+demonstrates why the full-corpus 100% result cannot be called RAG accuracy.
+
+OBSERVED FAILURE EXAMPLE
+For nomination clause 2.1.4 as known on 1 August 2025, the date-filtered relevance
+selector returns the June 1 schedule from the February circular. The July update
+changes Phase II to August 8. Resolving this requires linking clause membership
+from the February table to the July amendment. The simple dated table handles it
+as well as the resolver. Reference: nom_feb p6 and nom_jul p2. This is a historical
+research example restricted to the included corpus, not advice on current rules.
+
+IMPLEMENTATION AND VALIDATION
+Downloaded original PDFs with requests, extracted text with pypdf and phase-table
+geometry with PyMuPDF; visually inspected the phase table and April fee amendment.
+Source metadata, full text, URLs and SHA256 hashes are in documents.json.
+All methods use identical reference questions. Gold and code/protocol hashes are
+captured before scoring. Relevant input checks verify corpus counts, phase-table
+membership, source-page existence, unique questions and no future gold evidence.
+The reference answers were checked by the assistant, not an independent lawyer.
+
+Parser audit correction after first score: replaced an exact fee-amount search
+with a generic numeric capture after 'shall not exceed'/'maximum of'. The first
+code/results are preserved in first_run/. Corrected results are identical; this
+was a parser-quality repair, not a change to labels or model tuning.
+
+NOT EXECUTED / LIMITATIONS
+- MiniLM dense/hybrid retrieval: its public weight CDN repeatedly timed out,
+  including after network permission and an alternate download attempt.
+- TimelyRAG or VersionRAG author implementations: not run.
+- LLM generation, citation faithfulness and obligation-completeness scoring:
+  not run. No generator performance or paper superiority is claimed.
+- Automatic arbitrary amendment extraction: not demonstrated. Page bindings,
+  field schema and supported language patterns were developed on this corpus.
+- Full 20-chain benchmark, held-out families, expert adjudication: not completed.
+- No claim of complete SEBI coverage; later consolidations and intervening
+  instruments outside the selected closed corpus have not been exhaustively
+  audited. Public access is not itself a blanket dataset redistribution licence.
+
+COMMITMENT DECISION
+GO for a limited next feasibility gate on extracting amendments from unseen
+document families and retrieving complete evidence. NO-GO for presenting the
+current integration as a demonstrated novel method or a published-system win.
+Use the dated-table control throughout. Freeze a held-out family set before
+further development; keep manually corrected extraction as an explicit upper
+bound. Only commit to a method claim if an automated system improves over this
+strong simple control under equal source information and annotation effort.
+
+REPRODUCE FROM WORKSPACE ROOT
+python outputs/sebi_pilot/download.py
+python outputs/sebi_pilot/build_gold.py
+python outputs/sebi_pilot/checks.py
+python outputs/sebi_pilot/experiment.py
+python outputs/sebi_pilot/evidence_gate.py
+Python 3.13; installed global numpy/pandas/scikit-learn/pypdf/requests; PyMuPDF
+and rank-bm25 in this pilot's vendor directory. prepare_embeddings.py is optional
+and requires the unresolved model download. It has not supplied any scored data.
+Do not rerun build_gold.py after manually editing gold.json unless intending to
+replace it with the original assistant-authored reference set.
+
+FILES
+protocol.txt: pre-score protocol and pre-score download contingency.
+gold.json / build_gold.py: reference questions and creation script.
+experiment.py: source parser, baselines, resolver and scorer.
+structured_predictions.csv / structured_summary.csv: structured task results.
+retrieval_predictions.csv / retrieval_summary.csv: retrieved pages and metrics.
+exploratory_evidence_gate.csv / evidence_gate.py: separate post-primary diagnostic.
+extracted_events.json / flat_control_table.json: actual source-derived rules.
+documents.json / sources/: original documents, extracted pages and checksums.
+pre_score_hashes.json / run_manifest.json: provenance and execution metadata.
+first_run/: pre-audit implementation and original scores.
+
+PRIMARY SOURCES
+ia_2020: https://www.sebi.gov.in/sebi_data/attachdocs/sep-2020/1600874249403.pdf
+ia_jan: https://www.sebi.gov.in/sebi_data/attachdocs/jan-2025/1736338642778.pdf
+ra_jan: https://www.sebi.gov.in/sebi_data/attachdocs/jan-2025/1736338732932.pdf
+fees_apr: https://www.sebi.gov.in/sebi_data/attachdocs/apr-2025/1743595614193.pdf
+nom_jan: https://www.sebi.gov.in/sebi_data/attachdocs/jan-2025/1737459697644.pdf
+nom_feb: https://www.sebi.gov.in/sebi_data/attachdocs/feb-2025/1740743883077.pdf
+nom_jul: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753876405008.pdf
+nom_dec: https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1765451323097.pdf

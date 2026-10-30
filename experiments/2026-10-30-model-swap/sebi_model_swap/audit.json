@@ -1,0 +1,32 @@
+{
+  "checks": "PASS: row counts, frozen inputs, no duplicate model pairs, publication-date filtering, evidence metrics",
+  "focused24_at5": {
+    "BM25_LaMini_RRF": 16,
+    "BM25_date_filter": 15,
+    "LaMini_rerank": 13,
+    "phase_expansion_BM25": 19,
+    "phase_expansion_RRF": 16
+  },
+  "paired_vs_BM25": {
+    "BM25_LaMini_RRF": {
+      "wins": 1,
+      "losses": 0
+    },
+    "LaMini_rerank": {
+      "wins": 1,
+      "losses": 3
+    },
+    "phase_expansion_BM25": {
+      "wins": 4,
+      "losses": 0
+    },
+    "phase_expansion_RRF": {
+      "wins": 1,
+      "losses": 0
+    }
+  },
+  "candidate_ceiling_at10": 16,
+  "truncated_pairs": 113,
+  "mean_query_inference_seconds": 38.01702317595482,
+  "total_seconds": 997.4968726634979
+}

@@ -1,0 +1,27 @@
+{
+  "model": "MBZUAI/LaMini-Flan-T5-783M",
+  "weight_revision": "a15a40aa931006689bd79f9e08f8db8b1f2b485a",
+  "config_tokenizer_revision": "7a1ff0207cbe75d6a1fcbcc7077ee0b6808ecf9f",
+  "weight_sha256": "7d4181c8ae69d0c128880b013340b85c579256adbea4572f9c4b97bd1db40650",
+  "prompt_prefix": "Decide whether the passage provides evidence needed to answer the question. Answer yes or no.\nQuestion: ",
+  "yes_token": [
+    4273
+  ],
+  "no_token": [
+    150
+  ],
+  "max_input_tokens": 512,
+  "torch": "2.6.0+cpu",
+  "dtype": "dynamic int8 linear layers; other weights float32",
+  "model_load_seconds": 24.680773973464966,
+  "total_seconds": 997.4968726634979,
+  "queries": 24,
+  "pairs": 240,
+  "truncated_pairs": 113,
+  "pre_score_hashes": {
+    "run.py": "3281284ec47f717d0eb41223bab44ec86bda6c7eae2bf8657e3b249a55d92b39",
+    "protocol.txt": "195f9be519cb7f63d880c0c16f042b5bd2ac1a88cbc0de914f19609aedbbfcb2",
+    "gold.json": "f130d5c53339f066fd529e01594d504ac5265e3956a29bffdbee13dee518dc61",
+    "documents.json": "2b8369701eb478cc31cbdf81247df4ed74dad78a2a20e2ea0b3c88ac7ae1466c"
+  }
+}

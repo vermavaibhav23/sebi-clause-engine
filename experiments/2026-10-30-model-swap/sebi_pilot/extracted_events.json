@@ -1,0 +1,335 @@
+{
+  "phase_map": {
+    "2.1.4": "II",
+    "2.13": "II",
+    "3.1.1": "II",
+    "3.6.2": "II",
+    "3.2": "III",
+    "3.4": "III",
+    "3.5": "III",
+    "3.6.1": "III",
+    "3.9": "III",
+    "3.9.1": "III",
+    "3.10": "III"
+  },
+  "events": [
+    {
+      "id": "E000",
+      "doc": "nom_jan",
+      "date": "2025-01-10",
+      "entity": "NOM",
+      "field": "schedule",
+      "value": "2025-03-01",
+      "scope": "all",
+      "target": "ALL",
+      "evidence": [
+        "nom_jan:7"
+      ],
+      "requires_consent": false,
+      "text": "3.9.2. AMC shall treat any money payable / attributable to such folio at par with the extant norms pertaining to treatment of unclaimed money 10 and flag such folios for additional due diligence. 3.10. Regulated entities shall have the following online mechanism for existing and new investors, who want to opt-out of nomination; a) The online facility shall provide a mechanism for the investor to affirm their choice, in case of opting out of nomination. Upon choosing this option, the investor shall get an OTP. b) Upon submitting this OTP, the investor shall have a choice to either o furnish the unique acknowledgement number of having submitted the declaration form to opt-out 11 in physical mode with wet signature at any of the office of the concerned regulated entity or o capture their opting-out through video recording by the regulated entity as per extant norms in this regard 12. 4. Regulated entities shall use the Nomination Form as per the format provided in Annexure - A of this circular. This form shall replace the earlier form provided in Circular Ref. No. SEBI/HO/MIRSD/POD-1/P/CIR/2024/81 dated June 10, 2024 13. 5. The format for Opting-out of nomination shall continue to be as per Circular Ref. No. SEBI/HO/MIRSD/POD-1/P/CIR/2024/81 dated June 10, 2024, except that the same shall be allowed only as per paragraph 3.10 above. All other items in Circular Ref. No. SEBI/HO/MIRSD/POD-1/P/CIR/2024/81 dated June 10, 2024 shall continue to be in force. 6. Regulated entities shall implement / upgrade their systems for providing the above facility to the investors, including the nomination form in Annexure A . 7. This circular shall come into effect from March 01, 2025. 8. Upon implementation of this Circular, existing investors shall be given an opportunity to revise their choice of nomination. 9. Recognised Depositories are advised to take steps to make necessary amendments to the relevant bye-laws, rules and regulations for the implementation of this circular. 10 Provisions relating to \u2018Unclaimed Redemption and Dividend Amount\u2019 in Chapter 14 of the Master Circular on Mutual Funds (No. SEBI/HO/IMD/IMD-PoD-1/P/CIR/2024/90 dated June 27, 2024) 11 As in Circular Ref. No. SEBI/HO/MIRSD/POD-1/P/CIR/2024/81 dated June 10, 2024 12 The norms stipulated for video capture in live environment, liveliness check, etc., in the SEBI Circular No. SEBI/HO/MIRSD/SECFATF/ P/CIR/2023/169, dated October 12, 2023, would be applicable. 13 Circular Ref. No. SEBI/HO/MIRSD/POD-1/P/CIR/2024/81 titled, \u201c(a) Ease of Doing Investments- Non-submission of \u2018Choice of Nomination\u2019, (b) Only 3 fields to be provided mandatorily for updating Nomination Details\u201d dated June 10, 2024. Page 7 of 10"
+    },
+    {
+      "id": "E001",
+      "doc": "nom_feb",
+      "date": "2025-02-28",
+      "entity": "NOM",
+      "field": "schedule",
+      "value": "2025-06-01",
+      "scope": "all",
+      "target": "II",
+      "evidence": [
+        "nom_feb:6"
+      ],
+      "requires_consent": false,
+      "text": "Phase Implementation Date Provision in the circular Clause 2.1.4 Phase - II June 01, 2025 Clause 2.13 Clause 3.1.1 (a) & (b) Clause 3.6.2 Clause 3.2 Clause 3.4 Clause 3.5 Phase - III September 01, 2025 Clause 3.6.1 Clause 3.9 Clause 3.9.1 Clause 3.10 13. This circular shall come into force with effect from March 01, 2025. 14. All other provisions in the circular dated January 10, 2025 shall continue to remain the same. 15. This circular is issued in exercise of powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992 read with Regulation 60A of the SEBI (Depositories and Participants) Regulations, 2018 and Regulation 29A of the SEBI (Mutual Funds) Regulations, 1996, to protect the interests of investors in securities and to promote the development of, and to regulate the securities market. 16. This circular is issued with the approval of the competent authority. 17. This circular is available on the SEBI website at www.sebi.gov.in under the link: \u201cLegal \uf0e0 Circulars\u201d. Yours faithfully, S. Manjesh Roy General Manager Officer of Investor Assistance and Education Investor Awareness Division - 3 Tel no.: +91-22-2644 9710 or 4045 9710 manjeshsr@sebi.gov.in *** Page 6 of 9"
+    },
+    {
+      "id": "E002",
+      "doc": "nom_feb",
+      "date": "2025-02-28",
+      "entity": "NOM",
+      "field": "schedule",
+      "value": "2025-09-01",
+      "scope": "all",
+      "target": "III",
+      "evidence": [
+        "nom_feb:6"
+      ],
+      "requires_consent": false,
+      "text": "Phase Implementation Date Provision in the circular Clause 2.1.4 Phase - II June 01, 2025 Clause 2.13 Clause 3.1.1 (a) & (b) Clause 3.6.2 Clause 3.2 Clause 3.4 Clause 3.5 Phase - III September 01, 2025 Clause 3.6.1 Clause 3.9 Clause 3.9.1 Clause 3.10 13. This circular shall come into force with effect from March 01, 2025. 14. All other provisions in the circular dated January 10, 2025 shall continue to remain the same. 15. This circular is issued in exercise of powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992 read with Regulation 60A of the SEBI (Depositories and Participants) Regulations, 2018 and Regulation 29A of the SEBI (Mutual Funds) Regulations, 1996, to protect the interests of investors in securities and to promote the development of, and to regulate the securities market. 16. This circular is issued with the approval of the competent authority. 17. This circular is available on the SEBI website at www.sebi.gov.in under the link: \u201cLegal \uf0e0 Circulars\u201d. Yours faithfully, S. Manjesh Roy General Manager Officer of Investor Assistance and Education Investor Awareness Division - 3 Tel no.: +91-22-2644 9710 or 4045 9710 manjeshsr@sebi.gov.in *** Page 6 of 9"
+    },
+    {
+      "id": "E003",
+      "doc": "nom_jul",
+      "date": "2025-07-30",
+      "entity": "NOM",
+      "field": "schedule",
+      "value": "2025-08-08",
+      "scope": "all",
+      "target": "II",
+      "evidence": [
+        "nom_feb:6",
+        "nom_jul:2"
+      ],
+      "requires_consent": false,
+      "text": "5. In view of the operational difficulties expressed by the Depositories, depository participants and Industry Associations, it has been decided to extend the timeline for implementation of Phase II of Nomination Circular to August 08, 2025. 6. Further, the Depositories, after consultation with depository participants and ANMI, have requested for extension of time for implementation of Phase III of Nomination Circular till December 15, 2025 to allow depository participants sufficient time for development and testing. Accordingly, Phase III of Nomination Circular stands deferred to December 15, 2025. 7. All other provisions in the aforementioned circulars dated January 10, 2025 and February 28, 2025 shall continue to remain the same. 8. This circular is issued with the approval of the competent authority. 9. This circular is issued in exercise of powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992 read with Regulation 60A of the SEBI (Depositories and Participants) Regulations, 2018 and Regulation 29A of the SEBI (Mutual Funds) Regulations, 1996, to protect the interests of investors in securities and to promote the development of, and to regulate the securities market. 10. This circular is available on SEBI website at www.sebi.gov.in under the category: \u201cLegal \uf0e0 Circulars\u201d. Yours faithfully, S. Manjesh Roy General Manager Officer of Investor Assistance and Education Investor Awareness Division - 3 Tel no.: +91-22-2644 9710 or 4045 9710 manjeshsr@sebi.gov.in *** Page 2 of 2"
+    },
+    {
+      "id": "E004",
+      "doc": "nom_jul",
+      "date": "2025-07-30",
+      "entity": "NOM",
+      "field": "schedule",
+      "value": "2025-12-15",
+      "scope": "all",
+      "target": "III",
+      "evidence": [
+        "nom_feb:6",
+        "nom_jul:2"
+      ],
+      "requires_consent": false,
+      "text": "5. In view of the operational difficulties expressed by the Depositories, depository participants and Industry Associations, it has been decided to extend the timeline for implementation of Phase II of Nomination Circular to August 08, 2025. 6. Further, the Depositories, after consultation with depository participants and ANMI, have requested for extension of time for implementation of Phase III of Nomination Circular till December 15, 2025 to allow depository participants sufficient time for development and testing. Accordingly, Phase III of Nomination Circular stands deferred to December 15, 2025. 7. All other provisions in the aforementioned circulars dated January 10, 2025 and February 28, 2025 shall continue to remain the same. 8. This circular is issued with the approval of the competent authority. 9. This circular is issued in exercise of powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992 read with Regulation 60A of the SEBI (Depositories and Participants) Regulations, 2018 and Regulation 29A of the SEBI (Mutual Funds) Regulations, 1996, to protect the interests of investors in securities and to promote the development of, and to regulate the securities market. 10. This circular is available on SEBI website at www.sebi.gov.in under the category: \u201cLegal \uf0e0 Circulars\u201d. Yours faithfully, S. Manjesh Roy General Manager Officer of Investor Assistance and Education Investor Awareness Division - 3 Tel no.: +91-22-2644 9710 or 4045 9710 manjeshsr@sebi.gov.in *** Page 2 of 2"
+    },
+    {
+      "id": "E005",
+      "doc": "nom_dec",
+      "date": "2025-12-11",
+      "entity": "NOM",
+      "field": "schedule",
+      "value": "DEFERRED_UNSPECIFIED",
+      "scope": "all",
+      "target": "III",
+      "evidence": [
+        "nom_feb:6",
+        "nom_dec:2"
+      ],
+      "requires_consent": false,
+      "text": "circular and also seeking extension of time to carry out the system developments / process changes for its implementation. 5. In view of the foregoing, it has been decided to defer the timeline for implementing the aforesaid Circular from December 15, 2025 to a further date to be notified separately. 6. The provisions of this circular shall come into force with immediate effect. 7. All other provisions in the aforementioned circulars dated January 10, 2025, February 28, 2025 and July 30, 2025 shall continue to remain the same. 8. This circular is issued with the approval of the competent authority. 9. This circular is issued in exercise of powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992 read with Regulation 60A of the SEBI (Depositories and Participants) Regulations, 2018 and Regulation 29A of the SEBI (Mutual Funds) Regulations, 1996, to protect the interests of investors in securities and to promote the development of, and to regulate the securities market. 10. This circular is available on SEBI website at www.sebi.gov.in under the category: \u201cLegal \uf0e0 Circulars\u201d. Yours faithfully, S. Manjesh Roy General Manager Officer of Investor Assistance and Education Investor Awareness Division - 3 Tel no.: +91-22-2644 9710 or 4045 9710 manjeshsr@sebi.gov.in *** Page 2 of 2"
+    },
+    {
+      "id": "E006",
+      "doc": "ia_2020",
+      "date": "2020-09-23",
+      "entity": "IA",
+      "field": "advance_months",
+      "value": 6,
+      "scope": "all",
+      "target": "ALL",
+      "evidence": [
+        "ia_2020:3"
+      ],
+      "requires_consent": true,
+      "text": "(iii) Fees Regulation 15 A of the amended IA Regulations provide that Investment Advisers shall be entitled to charge fees from a client in the manner as specified by SEBI, accordingly Investment Advisers shall charge fees from the clients in either of the two modes: (A) Assets under Advice (AUA) mode a. The maximum fees that may be charged under this mode shall not exceed 2.5 percent of AUA per annum per client across all services offered by IA. b. IA shall be required to demonstrate AUA with supporting documents like demat statements, unit statements etc. of the client. c. Any portion of AUA held by the client under any pre-existing distribution arrangement with any entity shall be deducted from AUA for the purpose of charging fee by the IA. (B) Fixed fee mode The maximum fees that may be charged under this mode shall not exceed INR 1,25,000 per annum per client across all services offered by IA. General conditions under both modes a. In case \u201cfamily of client\u201d is reckoned as a single client, the fee as referred above shall be charged per \u201cfamily of client\u201d. b. IA shall charge fees from a client under any one mode i.e. (A) or (B) on an annual basis. The change of mode shall be effected only after 12 months of on boarding/last change of mode. c. If agreed by the client, IA may charge fees in advance. However, such advance shall not exceed fees for 2 quarters. d. In the event of pre-mature termination of the IA services in terms of agreement, the client shall be refunded the fees for unexpired period. However, IA may retain a maximum breakage fee of not greater than one quarter fee. (iv) Qualification and certification requirement Regulation 7 of the amended IA Regulations specifies the minimum qualification and certification requirements for IAs. Further, in terms of second proviso of regulation 7 (1), existing individual IAs above fifty years of age (as on September 30,2020) shall not be required to comply with the qualification and experience requirements specified under Regulation 7(1) (a) and 7(1)(b) of the amended IA Regulations. However, such IAs shall hold NISM accredited certifications and Page 3 of 12"
+    },
+    {
+      "id": "E007",
+      "doc": "ia_2020",
+      "date": "2020-09-23",
+      "entity": "IA",
+      "field": "breakage_months",
+      "value": 3,
+      "scope": "all",
+      "target": "ALL",
+      "evidence": [
+        "ia_2020:3"
+      ],
+      "requires_consent": false,
+      "text": "(iii) Fees Regulation 15 A of the amended IA Regulations provide that Investment Advisers shall be entitled to charge fees from a client in the manner as specified by SEBI, accordingly Investment Advisers shall charge fees from the clients in either of the two modes: (A) Assets under Advice (AUA) mode a. The maximum fees that may be charged under this mode shall not exceed 2.5 percent of AUA per annum per client across all services offered by IA. b. IA shall be required to demonstrate AUA with supporting documents like demat statements, unit statements etc. of the client. c. Any portion of AUA held by the client under any pre-existing distribution arrangement with any entity shall be deducted from AUA for the purpose of charging fee by the IA. (B) Fixed fee mode The maximum fees that may be charged under this mode shall not exceed INR 1,25,000 per annum per client across all services offered by IA. General conditions under both modes a. In case \u201cfamily of client\u201d is reckoned as a single client, the fee as referred above shall be charged per \u201cfamily of client\u201d. b. IA shall charge fees from a client under any one mode i.e. (A) or (B) on an annual basis. The change of mode shall be effected only after 12 months of on boarding/last change of mode. c. If agreed by the client, IA may charge fees in advance. However, such advance shall not exceed fees for 2 quarters. d. In the event of pre-mature termination of the IA services in terms of agreement, the client shall be refunded the fees for unexpired period. However, IA may retain a maximum breakage fee of not greater than one quarter fee. (iv) Qualification and certification requirement Regulation 7 of the amended IA Regulations specifies the minimum qualification and certification requirements for IAs. Further, in terms of second proviso of regulation 7 (1), existing individual IAs above fifty years of age (as on September 30,2020) shall not be required to comply with the qualification and experience requirements specified under Regulation 7(1) (a) and 7(1)(b) of the amended IA Regulations. However, such IAs shall hold NISM accredited certifications and Page 3 of 12"
+    },
+    {
+      "id": "E008",
+      "doc": "ia_2020",
+      "date": "2020-09-23",
+      "entity": "IA",
+      "field": "fixed_fee",
+      "value": 125000,
+      "scope": "all",
+      "target": "ALL",
+      "evidence": [
+        "ia_2020:3"
+      ],
+      "requires_consent": false,
+      "text": "(iii) Fees Regulation 15 A of the amended IA Regulations provide that Investment Advisers shall be entitled to charge fees from a client in the manner as specified by SEBI, accordingly Investment Advisers shall charge fees from the clients in either of the two modes: (A) Assets under Advice (AUA) mode a. The maximum fees that may be charged under this mode shall not exceed 2.5 percent of AUA per annum per client across all services offered by IA. b. IA shall be required to demonstrate AUA with supporting documents like demat statements, unit statements etc. of the client. c. Any portion of AUA held by the client under any pre-existing distribution arrangement with any entity shall be deducted from AUA for the purpose of charging fee by the IA. (B) Fixed fee mode The maximum fees that may be charged under this mode shall not exceed INR 1,25,000 per annum per client across all services offered by IA. General conditions under both modes a. In case \u201cfamily of client\u201d is reckoned as a single client, the fee as referred above shall be charged per \u201cfamily of client\u201d. b. IA shall charge fees from a client under any one mode i.e. (A) or (B) on an annual basis. The change of mode shall be effected only after 12 months of on boarding/last change of mode. c. If agreed by the client, IA may charge fees in advance. However, such advance shall not exceed fees for 2 quarters. d. In the event of pre-mature termination of the IA services in terms of agreement, the client shall be refunded the fees for unexpired period. However, IA may retain a maximum breakage fee of not greater than one quarter fee. (iv) Qualification and certification requirement Regulation 7 of the amended IA Regulations specifies the minimum qualification and certification requirements for IAs. Further, in terms of second proviso of regulation 7 (1), existing individual IAs above fifty years of age (as on September 30,2020) shall not be required to comply with the qualification and experience requirements specified under Regulation 7(1) (a) and 7(1)(b) of the amended IA Regulations. However, such IAs shall hold NISM accredited certifications and Page 3 of 12"
+    },
+    {
+      "id": "E009",
+      "doc": "ia_2020",
+      "date": "2020-09-23",
+      "entity": "IA",
+      "field": "aua_percent",
+      "value": 2.5,
+      "scope": "all",
+      "target": "ALL",
+      "evidence": [
+        "ia_2020:3"
+      ],
+      "requires_consent": false,
+      "text": "(iii) Fees Regulation 15 A of the amended IA Regulations provide that Investment Advisers shall be entitled to charge fees from a client in the manner as specified by SEBI, accordingly Investment Advisers shall charge fees from the clients in either of the two modes: (A) Assets under Advice (AUA) mode a. The maximum fees that may be charged under this mode shall not exceed 2.5 percent of AUA per annum per client across all services offered by IA. b. IA shall be required to demonstrate AUA with supporting documents like demat statements, unit statements etc. of the client. c. Any portion of AUA held by the client under any pre-existing distribution arrangement with any entity shall be deducted from AUA for the purpose of charging fee by the IA. (B) Fixed fee mode The maximum fees that may be charged under this mode shall not exceed INR 1,25,000 per annum per client across all services offered by IA. General conditions under both modes a. In case \u201cfamily of client\u201d is reckoned as a single client, the fee as referred above shall be charged per \u201cfamily of client\u201d. b. IA shall charge fees from a client under any one mode i.e. (A) or (B) on an annual basis. The change of mode shall be effected only after 12 months of on boarding/last change of mode. c. If agreed by the client, IA may charge fees in advance. However, such advance shall not exceed fees for 2 quarters. d. In the event of pre-mature termination of the IA services in terms of agreement, the client shall be refunded the fees for unexpired period. However, IA may retain a maximum breakage fee of not greater than one quarter fee. (iv) Qualification and certification requirement Regulation 7 of the amended IA Regulations specifies the minimum qualification and certification requirements for IAs. Further, in terms of second proviso of regulation 7 (1), existing individual IAs above fifty years of age (as on September 30,2020) shall not be required to comply with the qualification and experience requirements specified under Regulation 7(1) (a) and 7(1)(b) of the amended IA Regulations. However, such IAs shall hold NISM accredited certifications and Page 3 of 12"
+    },
+    {
+      "id": "E010",
+      "doc": "ia_jan",
+      "date": "2025-01-08",
+      "entity": "IA",
+      "field": "fixed_fee",
+      "value": 151000,
+      "scope": "retail",
+      "target": "ALL",
+      "evidence": [
+        "ia_jan:8"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India b. The maximum fee that may be charged by the IA under the fixed fee mode now stands revised and shall not exceed \u20b91,51,000 per annum per family of client. The fee limit shall be revised and announced by IAASB once in three years based on the Cost Inflation Index (CII) after due consultation with SEBI. c. In terms of the earlier provisions, IA could charge fees from a client under any one mode, i.e., Assets under Advice (AUA) mode or fixed fee mode on an annual basis. Change of mode, if any, can be effected only after twelve months of on-boarding/last change of mode. In order to provide more flexibility in charging of fees, IAs have now been allowed to change the fee mode for a client at any time, without restriction on the minimum period between two fee mode changes. The maximum fee that can be charged by the IA shall, however, not exceed the higher of fee limit under the fixed fee mode or 2.5 per cent of AUA per annum per family of client. d. The fee limits do not include statutory charges. e. The provisions related to limits on fee chargeable by IAs shall only apply to their individual and Hindu Undivided Family (HUF) clients. These shall not be applicable in case of non-individual clients and accredited investors and in such cases, the limits and modes of fees payable to the IA shall be governed through bilaterally negotiated contractual terms. f. In terms of revised scope of the \u2018investment advice\u2019 under Regulation 2(1)(l) of the IA Regulations, Investment advice related to securities under purview of SEBI shall only fall under the purview of IA Regulations. As provided under Regulation 2(1) (ac) of IA Regulations, for the purpose of charging fee under AUA mode, AUA shall mean the aggregate net asset value of securities under the purview of SEBI. Accordingly, it is clarified that the limits on fee chargeable to clients by IAs shall be applicable only in respect of investment advice related to securities under purview of SEBI. g. The fee limit and mode of fees payable for the existing Individual/HUF clients shall remain unchanged till the expiry of the current agreement, or up to June Page 8 of 12"
+    },
+    {
+      "id": "E011",
+      "doc": "ia_jan",
+      "date": "2025-01-08",
+      "entity": "IA",
+      "field": "aua_percent",
+      "value": 2.5,
+      "scope": "retail",
+      "target": "ALL",
+      "evidence": [
+        "ia_jan:7"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India no recourse is available to them with SEBI for their grievances related to such products/services or services of IA in respect of such products/services. IAs shall make the aforesaid disclosure and obtain appropriate declaration and undertaking while on-boarding new client. For existing clients, IAs shall ensure compliance with these requirements latest by April 30, 2025. vii. Use of Artificial Intelligence (\u2018AI\u2019) tools in IA services a. In terms of Regulation 15(14) of the IA Regulations, an investment adviser who uses Artificial Intelligence tools, irrespective of the scale and scenario of adoption of such tools, for servicing its clients shall be solely responsible for the security, confidentiality, integrity of the client data, use of any other information or data to arrive at investment advice, investment advice based on output of Artificial Intelligence tools and compliance with any law for the time being in force. Further, in terms of Regulation 18(9) of the IA Regulations, an investment adviser shall disclose to the client the extent of use of Artificial Intelligence tools in providing investment advice. b. Investment Adviser shall provide the disclosure of the extent of use of Artificial Intelligence tools by them in providing investment advice to their clients at the time of entering into the agreement and make such additional disclosure whenever required. c. For the existing clients, investment advisers shall comply with the requirements under this clause latest by April 30, 2025. viii. Fees and flexibility in change of modes of charging fee to clients a. Regulation 15A of the IA Regulations provide that IAs shall be entitled to charge fees from a client in the manner as specified by SEBI. In terms of the fee related provisions, IAs can charge fees under two modes, namely, (i) Assets under Advice (\u2018AUA\u2019) mode, which is subject to a limit of 2.5 per cent of AUA per annum per family of client across all services offered by IA, and (ii) Fixed fee mode, which is subject to a specified fee limit (earlier limit \u20b91,25,000) per annum per family of client across all services offered by IA. Page 7 of 12"
+    },
+    {
+      "id": "E012",
+      "doc": "fees_apr",
+      "date": "2025-04-02",
+      "entity": "IA",
+      "field": "advance_months",
+      "value": 12,
+      "scope": "retail",
+      "target": "ALL",
+      "evidence": [
+        "fees_apr:2"
+      ],
+      "requires_consent": true,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India i. If agreed by the client, IAs and RAs may charge fees in advance, however, such advance shall not exceed fees for a period of one year. ii. The fee related provisions such as fee limit, modes of payment of fees, refund of fees, advance fee, breakage fees shall only be applicable in case of their individual and Hindu Undivided Family (HUF) clients (provided these clients are not accredited investors). These provisions shall not be applicable in case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. iii. In case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser, fee related terms and conditions shall be governed through bilaterally negotiated contractual terms. 4. The provisions of this circular shall come into effect from the date of issuance of this circular. 5. IAASB/RAASB (BSE Limited) is hereby directed to bring the provisions of this circular to the notice of the IAs and RAs. 6. This circular is issued in exercise of powers conferred under section 11(1) of the Securities and Exchange Board of India Act, 1992 read with regulation 15A of SEBI (Investment Advisers) Regulations, 2013 and regulation 15A of SEBI (Research Analysts) Regulations, 2014, to protect the interests of investors in securities market and to promote the development of, and to regulate the securities market. 7. This circular is available on the SEBI website at www.sebi.gov.in under the category \"Legal \uf0e0Circulars\". Yours faithfully, Aradhana Verma General Manager Tel. No. 022-26449633 aradhanad@sebi.gov.in Page 2 of 2"
+    },
+    {
+      "id": "E013",
+      "doc": "fees_apr",
+      "date": "2025-04-02",
+      "entity": "IA",
+      "field": "advance_months",
+      "value": "NEGOTIATED",
+      "scope": "accredited",
+      "target": "ALL",
+      "evidence": [
+        "fees_apr:2"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India i. If agreed by the client, IAs and RAs may charge fees in advance, however, such advance shall not exceed fees for a period of one year. ii. The fee related provisions such as fee limit, modes of payment of fees, refund of fees, advance fee, breakage fees shall only be applicable in case of their individual and Hindu Undivided Family (HUF) clients (provided these clients are not accredited investors). These provisions shall not be applicable in case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. iii. In case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser, fee related terms and conditions shall be governed through bilaterally negotiated contractual terms. 4. The provisions of this circular shall come into effect from the date of issuance of this circular. 5. IAASB/RAASB (BSE Limited) is hereby directed to bring the provisions of this circular to the notice of the IAs and RAs. 6. This circular is issued in exercise of powers conferred under section 11(1) of the Securities and Exchange Board of India Act, 1992 read with regulation 15A of SEBI (Investment Advisers) Regulations, 2013 and regulation 15A of SEBI (Research Analysts) Regulations, 2014, to protect the interests of investors in securities market and to promote the development of, and to regulate the securities market. 7. This circular is available on the SEBI website at www.sebi.gov.in under the category \"Legal \uf0e0Circulars\". Yours faithfully, Aradhana Verma General Manager Tel. No. 022-26449633 aradhanad@sebi.gov.in Page 2 of 2"
+    },
+    {
+      "id": "E014",
+      "doc": "fees_apr",
+      "date": "2025-04-02",
+      "entity": "IA",
+      "field": "advance_months",
+      "value": "NEGOTIATED",
+      "scope": "corporate",
+      "target": "ALL",
+      "evidence": [
+        "fees_apr:2"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India i. If agreed by the client, IAs and RAs may charge fees in advance, however, such advance shall not exceed fees for a period of one year. ii. The fee related provisions such as fee limit, modes of payment of fees, refund of fees, advance fee, breakage fees shall only be applicable in case of their individual and Hindu Undivided Family (HUF) clients (provided these clients are not accredited investors). These provisions shall not be applicable in case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. iii. In case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser, fee related terms and conditions shall be governed through bilaterally negotiated contractual terms. 4. The provisions of this circular shall come into effect from the date of issuance of this circular. 5. IAASB/RAASB (BSE Limited) is hereby directed to bring the provisions of this circular to the notice of the IAs and RAs. 6. This circular is issued in exercise of powers conferred under section 11(1) of the Securities and Exchange Board of India Act, 1992 read with regulation 15A of SEBI (Investment Advisers) Regulations, 2013 and regulation 15A of SEBI (Research Analysts) Regulations, 2014, to protect the interests of investors in securities market and to promote the development of, and to regulate the securities market. 7. This circular is available on the SEBI website at www.sebi.gov.in under the category \"Legal \uf0e0Circulars\". Yours faithfully, Aradhana Verma General Manager Tel. No. 022-26449633 aradhanad@sebi.gov.in Page 2 of 2"
+    },
+    {
+      "id": "E015",
+      "doc": "ra_jan",
+      "date": "2025-01-08",
+      "entity": "RA",
+      "field": "fixed_fee",
+      "value": 151000,
+      "scope": "retail",
+      "target": "ALL",
+      "evidence": [
+        "ra_jan:8"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India ix. Fees chargeable to clients by RAs: Regulation 15A of RA Regulations provide that RA shall be entitled to charge fees for providing research services from client including an accredited investor in the manner as specified by SEBI. Accordingly, - a. RAs may charge fees, subject to ceiling as may be specified by SEBI and shall ensure that fee charged to client is fair and reasonable. b. RAs shall charge a maximum of \u20b91,51,000 per annum per family in case of their clients who are individuals and Hindu Undivided Family(HUF). The fee limit shall be revised and announced by RAASB once in three years based on the Cost Inflation Index (CII) after due consultation with SEBI. c. The fee limit does not include statutory charges. d. The provisions related to limit on fee chargeable by RAs shall only apply to individual and HUF clients and shall not be applicable in case of non-individual clients and accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. e. The limits of fees payable to the RA by non-individual clients and accredited investors, and to the proxy adviser by their institutional investors shall be governed through bilaterally negotiated contractual terms. f. If agreed by the client, RA may charge fees in advance. However, such advance shall not exceed fees for more than one quarter. g. In the event of pre-mature termination of RA services in terms of the agreed terms and conditions, the client shall be refunded proportionate fees for unexpired period. RA shall not charge any breakage fee. h. The terms and conditions to be disclosed by RA to the client shall also include fee limits, agreed fees for research services and guidance on the optional \u2018Centralised Fee Collection Mechanism for IA and RA\u2019 (CeFCoM). Page 8 of 21"
+    },
+    {
+      "id": "E016",
+      "doc": "ra_jan",
+      "date": "2025-01-08",
+      "entity": "RA",
+      "field": "advance_months",
+      "value": 3,
+      "scope": "all",
+      "target": "ALL",
+      "evidence": [
+        "ra_jan:8"
+      ],
+      "requires_consent": true,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India ix. Fees chargeable to clients by RAs: Regulation 15A of RA Regulations provide that RA shall be entitled to charge fees for providing research services from client including an accredited investor in the manner as specified by SEBI. Accordingly, - a. RAs may charge fees, subject to ceiling as may be specified by SEBI and shall ensure that fee charged to client is fair and reasonable. b. RAs shall charge a maximum of \u20b91,51,000 per annum per family in case of their clients who are individuals and Hindu Undivided Family(HUF). The fee limit shall be revised and announced by RAASB once in three years based on the Cost Inflation Index (CII) after due consultation with SEBI. c. The fee limit does not include statutory charges. d. The provisions related to limit on fee chargeable by RAs shall only apply to individual and HUF clients and shall not be applicable in case of non-individual clients and accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. e. The limits of fees payable to the RA by non-individual clients and accredited investors, and to the proxy adviser by their institutional investors shall be governed through bilaterally negotiated contractual terms. f. If agreed by the client, RA may charge fees in advance. However, such advance shall not exceed fees for more than one quarter. g. In the event of pre-mature termination of RA services in terms of the agreed terms and conditions, the client shall be refunded proportionate fees for unexpired period. RA shall not charge any breakage fee. h. The terms and conditions to be disclosed by RA to the client shall also include fee limits, agreed fees for research services and guidance on the optional \u2018Centralised Fee Collection Mechanism for IA and RA\u2019 (CeFCoM). Page 8 of 21"
+    },
+    {
+      "id": "E017",
+      "doc": "ra_jan",
+      "date": "2025-01-08",
+      "entity": "RA",
+      "field": "breakage_months",
+      "value": 0,
+      "scope": "all",
+      "target": "ALL",
+      "evidence": [
+        "ra_jan:8"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India ix. Fees chargeable to clients by RAs: Regulation 15A of RA Regulations provide that RA shall be entitled to charge fees for providing research services from client including an accredited investor in the manner as specified by SEBI. Accordingly, - a. RAs may charge fees, subject to ceiling as may be specified by SEBI and shall ensure that fee charged to client is fair and reasonable. b. RAs shall charge a maximum of \u20b91,51,000 per annum per family in case of their clients who are individuals and Hindu Undivided Family(HUF). The fee limit shall be revised and announced by RAASB once in three years based on the Cost Inflation Index (CII) after due consultation with SEBI. c. The fee limit does not include statutory charges. d. The provisions related to limit on fee chargeable by RAs shall only apply to individual and HUF clients and shall not be applicable in case of non-individual clients and accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. e. The limits of fees payable to the RA by non-individual clients and accredited investors, and to the proxy adviser by their institutional investors shall be governed through bilaterally negotiated contractual terms. f. If agreed by the client, RA may charge fees in advance. However, such advance shall not exceed fees for more than one quarter. g. In the event of pre-mature termination of RA services in terms of the agreed terms and conditions, the client shall be refunded proportionate fees for unexpired period. RA shall not charge any breakage fee. h. The terms and conditions to be disclosed by RA to the client shall also include fee limits, agreed fees for research services and guidance on the optional \u2018Centralised Fee Collection Mechanism for IA and RA\u2019 (CeFCoM). Page 8 of 21"
+    },
+    {
+      "id": "E018",
+      "doc": "fees_apr",
+      "date": "2025-04-02",
+      "entity": "RA",
+      "field": "advance_months",
+      "value": 12,
+      "scope": "retail",
+      "target": "ALL",
+      "evidence": [
+        "fees_apr:2"
+      ],
+      "requires_consent": true,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India i. If agreed by the client, IAs and RAs may charge fees in advance, however, such advance shall not exceed fees for a period of one year. ii. The fee related provisions such as fee limit, modes of payment of fees, refund of fees, advance fee, breakage fees shall only be applicable in case of their individual and Hindu Undivided Family (HUF) clients (provided these clients are not accredited investors). These provisions shall not be applicable in case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. iii. In case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser, fee related terms and conditions shall be governed through bilaterally negotiated contractual terms. 4. The provisions of this circular shall come into effect from the date of issuance of this circular. 5. IAASB/RAASB (BSE Limited) is hereby directed to bring the provisions of this circular to the notice of the IAs and RAs. 6. This circular is issued in exercise of powers conferred under section 11(1) of the Securities and Exchange Board of India Act, 1992 read with regulation 15A of SEBI (Investment Advisers) Regulations, 2013 and regulation 15A of SEBI (Research Analysts) Regulations, 2014, to protect the interests of investors in securities market and to promote the development of, and to regulate the securities market. 7. This circular is available on the SEBI website at www.sebi.gov.in under the category \"Legal \uf0e0Circulars\". Yours faithfully, Aradhana Verma General Manager Tel. No. 022-26449633 aradhanad@sebi.gov.in Page 2 of 2"
+    },
+    {
+      "id": "E019",
+      "doc": "fees_apr",
+      "date": "2025-04-02",
+      "entity": "RA",
+      "field": "advance_months",
+      "value": "NEGOTIATED",
+      "scope": "accredited",
+      "target": "ALL",
+      "evidence": [
+        "fees_apr:2"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India i. If agreed by the client, IAs and RAs may charge fees in advance, however, such advance shall not exceed fees for a period of one year. ii. The fee related provisions such as fee limit, modes of payment of fees, refund of fees, advance fee, breakage fees shall only be applicable in case of their individual and Hindu Undivided Family (HUF) clients (provided these clients are not accredited investors). These provisions shall not be applicable in case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. iii. In case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser, fee related terms and conditions shall be governed through bilaterally negotiated contractual terms. 4. The provisions of this circular shall come into effect from the date of issuance of this circular. 5. IAASB/RAASB (BSE Limited) is hereby directed to bring the provisions of this circular to the notice of the IAs and RAs. 6. This circular is issued in exercise of powers conferred under section 11(1) of the Securities and Exchange Board of India Act, 1992 read with regulation 15A of SEBI (Investment Advisers) Regulations, 2013 and regulation 15A of SEBI (Research Analysts) Regulations, 2014, to protect the interests of investors in securities market and to promote the development of, and to regulate the securities market. 7. This circular is available on the SEBI website at www.sebi.gov.in under the category \"Legal \uf0e0Circulars\". Yours faithfully, Aradhana Verma General Manager Tel. No. 022-26449633 aradhanad@sebi.gov.in Page 2 of 2"
+    },
+    {
+      "id": "E020",
+      "doc": "fees_apr",
+      "date": "2025-04-02",
+      "entity": "RA",
+      "field": "advance_months",
+      "value": "NEGOTIATED",
+      "scope": "corporate",
+      "target": "ALL",
+      "evidence": [
+        "fees_apr:2"
+      ],
+      "requires_consent": false,
+      "text": "\u092d\u093e\u0930\u0924\u0940\u092f \u016e\u093f\u0924\u092d\u0942\u093f\u0924 \u0914\u0930 \u093f\u0935\u093f\u0928\u092e\u092f \u092c\u094b\u0921\u014a Securities and Exchange Board of India i. If agreed by the client, IAs and RAs may charge fees in advance, however, such advance shall not exceed fees for a period of one year. ii. The fee related provisions such as fee limit, modes of payment of fees, refund of fees, advance fee, breakage fees shall only be applicable in case of their individual and Hindu Undivided Family (HUF) clients (provided these clients are not accredited investors). These provisions shall not be applicable in case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser. iii. In case of non-individual clients, accredited investors, and in case of institutional investors seeking recommendation of proxy adviser, fee related terms and conditions shall be governed through bilaterally negotiated contractual terms. 4. The provisions of this circular shall come into effect from the date of issuance of this circular. 5. IAASB/RAASB (BSE Limited) is hereby directed to bring the provisions of this circular to the notice of the IAs and RAs. 6. This circular is issued in exercise of powers conferred under section 11(1) of the Securities and Exchange Board of India Act, 1992 read with regulation 15A of SEBI (Investment Advisers) Regulations, 2013 and regulation 15A of SEBI (Research Analysts) Regulations, 2014, to protect the interests of investors in securities market and to promote the development of, and to regulate the securities market. 7. This circular is available on the SEBI website at www.sebi.gov.in under the category \"Legal \uf0e0Circulars\". Yours faithfully, Aradhana Verma General Manager Tel. No. 022-26449633 aradhanad@sebi.gov.in Page 2 of 2"
+    }
+  ]
+}
